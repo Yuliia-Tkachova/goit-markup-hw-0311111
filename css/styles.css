@@ -1,0 +1,224 @@
+:root {
+  /* fonts */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-fond: 'Raleway', sans-serif;
+
+  /* text colors */
+  --main-txt-cl: #212121;
+  --secondary-xt-cl: #757575;
+  --accent-cl: #2196f3;
+
+  /* bg colors */
+  --dark-bg-cl: #2f303a;
+  --light-bg-cl: #f5f4fa;
+
+  /* others */
+}
+
+.body {
+  font-family: var(--main-font);
+  color: var(--main-txt-cl);
+}
+/* reset styles*/
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+.list {
+  list-style: none;
+}
+
+/* header section */
+.logo {
+  font-family: var(--secondary-fond);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-web {
+  color: var(--accent-cl);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-cl);
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-cl);
+}
+.header-phone:hover,
+.header-phone:focus {
+  color: var(--accent-cl);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-cl);
+}
+.address-mail:hover,
+.address-mail:focus {
+  color: var(--accent-cl);
+}
+.address-phone:hover,
+.address-phone:focus {
+  color: var(--accent-cl);
+}
+
+.nav-link-current {
+  color: var(--accent-cl);
+}
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--secondary-xt-cl);
+}
+.header-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--secondary-xt-cl);
+}
+
+/* hero section */
+.hero,
+.footer {
+  background: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: #ffffff;
+  background: var(--accent-cl);
+  display: flex;
+  letter-spacing: 0.06em;
+}
+/* features section */
+.none-title {
+  display: none;
+}
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-txt-cl);
+}
+.features-text {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--secondary-xt-cl);
+}
+/*about and team sections */
+.about-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+}
+.team {
+  background: #f5f4fa;
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+}
+.team-text {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-xt-cl);
+}
+/* footer section */
+.footer-logo {
+  font-family: var(--secondary-fond);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address-link {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address-mail,
+.address-phone {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* portfolio */
+.filters-btn {
+  font-family: inherit;
+  background: var(--light-bg-cl);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+  cursor: pointer;
+}
+.portf-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--main-txt-cl);
+}
+.portf-text {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--secondary-xt-cl);
+}
+.filters-btn-current {
+  background-color: var(--accent-cl);
+  color: #ffffff;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--accent-cl);
+  color: #ffffff;
+}
+.address {
+  font-style: normal;
+}
