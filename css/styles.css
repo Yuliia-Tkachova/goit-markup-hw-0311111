@@ -15,6 +15,12 @@
   /* others */
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
@@ -29,6 +35,31 @@
 }
 
 /* header section */
+.header{
+  width: 1600px;
+}
+.nav-list,
+.header-list {
+  display: flex;
+  align-items: center;
+}
+.nav-item{
+margin-right: 50px;
+}
+.nav-list .nav-item:last-child{
+  margin-right: 0;
+}
+.nav-list{
+  padding-left: 0;
+}
+.container {
+  width: 1200px;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .logo {
   font-family: var(--secondary-fond);
   font-weight: 700;
@@ -36,6 +67,9 @@
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: #000000;
+  padding-top: 24px;
+  margin-right: 93px;
+  display: block;
 }
 .logo-web {
   color: var(--accent-cl);
@@ -46,7 +80,12 @@
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
+  display:block;
 }
+.link {
+  padding-top: 32px;
+}
+
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-cl);
@@ -59,7 +98,6 @@
 .header-phone:focus {
   color: var(--accent-cl);
 }
-
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-cl);
@@ -82,15 +120,25 @@
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--secondary-xt-cl);
+   display: block;
 }
 .header-phone {
+  margin-left: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--secondary-xt-cl);
+  display: block;
 }
-
+.cont {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  margin-left: auto;
+  padding-left: 0;
+}
 /* hero section */
 .hero,
 .footer {
@@ -115,6 +163,7 @@
   display: flex;
   letter-spacing: 0.06em;
 }
+
 /* features section */
 .none-title {
   display: none;
@@ -160,6 +209,12 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-xt-cl);
+}
+.about-img {
+  display: block; 
+}
+.team-img {
+  display: block;
 }
 /* footer section */
 .footer-logo {
@@ -221,4 +276,7 @@
 }
 .address {
   font-style: normal;
+}
+.portf-img {
+  display: block;
 }
