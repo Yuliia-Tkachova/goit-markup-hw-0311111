@@ -348,6 +348,8 @@ p {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  background: #FFFFFF;
+border: 1px solid #EEEEEE;
 }
 .portf-item:nth-child(3n) {
   margin-right: 0;
