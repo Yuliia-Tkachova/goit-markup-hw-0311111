@@ -152,8 +152,8 @@ margin: 0;
 .footer {
   background: #2f303a;
   width:1600px;
+  padding-bottom: 200px;
 }
-
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -163,11 +163,8 @@ margin: 0;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding-top: 200px;
-  padding-bottom: 280px;
-  margin-top: 0;
-  margin-bottom: 0
-  align-items: center;
-
+  padding-bottom: 15px;
+  gap: 30px;
   width: 696px;
   margin: 0 auto;
   margin-right: auto;
@@ -200,6 +197,13 @@ margin: 0;
 /* features section */
 .none-title {
   display: none;
+}
+.features-list {
+  display: flex;
+  width: 1170px; 
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
 }
 .features-title {
   font-weight: 700;
