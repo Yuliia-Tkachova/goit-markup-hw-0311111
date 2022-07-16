@@ -319,8 +319,6 @@ p {
   color: #ffffff;
   padding-top: 0;
   width: 145px;
-  
-  
 }
 .address-link {
   font-size: 14px;
@@ -339,6 +337,9 @@ p {
 .header {
   border-bottom: 1px solid #ececec;
 }
+.portfolio-section {
+  padding-top: 94px;
+}
 .cont-portf-cards {
   display: flex;
   flex-wrap: wrap;
@@ -355,10 +356,12 @@ p {
   margin-bottom: 0;
 }
 .filters-list {
+  width: 611px;
+  padding-left: 0;
+  padding-bottom: 16px;
   display: flex;
   margin: auto;
   gap: 8px;
-  justify-content: center;
 }
 .filters-btn {
   font-family: inherit;
@@ -373,18 +376,22 @@ p {
   cursor: pointer;
   display: block;
 }
+
 .portf-title {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--main-txt-cl);
+  padding-top: 20px;
+  padding-bottom: 4px;
 }
 .portf-text {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--secondary-xt-cl);
+  padding-bottom: 20px;
 }
 .filters-btn-current {
   background-color: var(--accent-cl);
