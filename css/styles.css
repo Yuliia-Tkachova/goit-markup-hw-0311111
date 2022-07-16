@@ -248,7 +248,7 @@ p {
   padding-top: 94px;
 }
 .team {
-  width: 1200px;
+ width: 1600px;
   background: #f5f4fa;
 }
 
@@ -296,6 +296,20 @@ p {
   padding-left: 0;
 }
 /* footer section */
+.footer {
+  padding-bottom: 0;
+}
+.cont-footer {
+ 
+  padding: 60px 1154px 60px 215px;
+  margin: 0;
+}
+.address {
+  width: 231px;
+}
+.address-list {
+  padding-left: 0;
+}
 .footer-logo {
   font-family: var(--secondary-fond);
   font-weight: 700;
@@ -303,6 +317,10 @@ p {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: #ffffff;
+  padding-top: 0;
+  width: 145px;
+  
+  
 }
 .address-link {
   font-size: 14px;
